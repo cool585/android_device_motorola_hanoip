@@ -29,6 +29,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qcom.hdr.config=/system/vendor/etc/hdr_tm_config.xml
 
+# Firmware
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.hw.modem_version=.
+
 # Sensor
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.vendor.sensors.mot_ltv=true \
