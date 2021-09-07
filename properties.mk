@@ -13,6 +13,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb \
     persist.vendor.audio.calfile7=/vendor/etc/acdbdata/Codec_cal.acdb
 
+# ADB - Early
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.adb_early=1
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.physical.num=5
