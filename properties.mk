@@ -17,14 +17,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.adb_early=1
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.soc.manufacturer=Qualcomm \
+    ro.soc.model=SM6150
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.physical.num=5
-
-# Chipset
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.soc.manufacturer=QTI \
-    ro.soc.model=SM7150
 
 # HDR
 PRODUCT_PROPERTY_OVERRIDES += \
