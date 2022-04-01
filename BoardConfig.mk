@@ -31,6 +31,9 @@ TARGET_KERNEL_CONFIG := vendor/hanoip_defconfig
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# LZ4 Compression
+BOARD_RAMDISK_USE_LZ4 := true
+
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
