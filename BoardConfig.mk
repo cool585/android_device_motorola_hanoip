@@ -37,5 +37,9 @@ BOARD_RAMDISK_USE_LZ4 := true
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# Kernel Modules - Vendor Boot
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/vendor_boot.modules.load))
+BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD)
+
 # Recovery
 BOARD_USES_RECOVERY_AS_BOOT := true
