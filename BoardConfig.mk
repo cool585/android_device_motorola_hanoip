@@ -37,3 +37,5 @@ BOARD_RAMDISK_USE_LZ4 := true
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# Recovery
+BOARD_USES_RECOVERY_AS_BOOT := true
