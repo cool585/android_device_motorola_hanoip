@@ -30,7 +30,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
 AB_OTA_PARTITIONS += \
-    vbmeta_system
+    vbmeta_system \
+    vendor_boot
 
 # Properties
 -include $(LOCAL_PATH)/properties.mk
