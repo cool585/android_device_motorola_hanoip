@@ -15,13 +15,13 @@
 #
 
 PRODUCT_BUILD_SUPER_PARTITION := false
-PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 $(call inherit-product, device/motorola/sm6150-common/common.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/motorola/liber/liber-vendor.mk)
+$(call inherit-product, vendor/motorola/hanoip/hanoip-vendor.mk)
 
 # Properties
 -include $(LOCAL_PATH)/properties.mk
@@ -31,10 +31,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    ApertureOverlayLiber \
-    FrameworksResLiber \
-    SettingsResLiber \
-    SystemUIResLiber
+    ApertureOverlayhanoip \
+    FrameworksReshanoip \
+    SettingsReshanoip \
+    SystemUIReshanoip
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -67,7 +67,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.liber
+    android.hardware.lights-service.hanoip
 
 # IDC
 PRODUCT_COPY_FILES += \

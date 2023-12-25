@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from Liber RPIS31.Q2-42-25-1
+# All unpinned blobs below are extracted from hanoip RPIS31.Q2-42-25-1
 
 # ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
@@ -106,16 +106,16 @@ vendor/lib64/camera/com.qti.sensor.mot_ov2180.so
 vendor/lib64/camera/com.qti.sensor.mot_s5k4h7.so
 vendor/lib64/camera/com.qti.sensor.mot_s5k5e9.so
 vendor/lib64/camera/com.qti.sensor.mot_s5kgw1.so
-vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_liber_ov02a10.bin
-vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_liber_ov16a1q.bin
-vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_liber_ov2180.bin
-vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_liber_s5k4h7.bin
-vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_liber_s5k4h7_legacy.bin
-vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_liber_s5kgw1.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_mot_liber_s5k5e9.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_hanoip_ov02a10.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_hanoip_ov16a1q.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_hanoip_ov2180.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_hanoip_s5k4h7.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_hanoip_s5k4h7_legacy.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_mot_hanoip_s5kgw1.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_mot_hanoip_s5k5e9.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.mot_liber_ov16a1q.bin
-vendor/lib64/camera/com.qti.tuned.mot_liber_s5kgw1.bin
+vendor/lib64/camera/com.qti.tuned.mot_hanoip_ov16a1q.bin
+vendor/lib64/camera/com.qti.tuned.mot_hanoip_s5kgw1.bin
 vendor/lib64/camera/com.qti.tuned.mot_ov2180_rear.bin
 vendor/lib64/camera/com.qti.tuned.mot_s5k4h7_rear.bin
 vendor/lib64/camera/com.qti.tuned.mot_s5k5e9_rear.bin
@@ -174,7 +174,7 @@ vendor/etc/qdcm_calib_data_mipi_mot_vid_focal_1080p_653.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_nova_1080p_653.xml
 
 # Display Firmware
-vendor/firmware/focaltech-ft8756-0d-0000-liber.bin
+vendor/firmware/focaltech-ft8756-0d-0000-hanoip.bin
 vendor/firmware/novatek_ts_fw.bin
 
 # Fingerprint - FPC
@@ -292,7 +292,7 @@ vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.tof.vl53l1.so
 
 # Thermal
-vendor/etc/thermal-engine-liber.conf
+vendor/etc/thermal-engine-hanoip.conf
 
 # Vibrator Firmware
 vendor/firmware/aw869x_haptic.bin
