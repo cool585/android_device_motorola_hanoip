@@ -39,9 +39,9 @@ TARGET_SCREEN_HEIGHT := 2460
 TARGET_SCREEN_WIDTH := 1080
 
 # Build info
-BUILD_FINGERPRINT := "motorola/hanoip_retail/hanoip:11/RPIS31.Q2-42-25-1/19a8e:user/release-keys"
+BUILD_FINGERPRINT := "motorola/hanoip_retail/hanoip:11/RRIS31.Q1-42-51-12-4/24f96:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=hanoip_retail \
-    PRIVATE_BUILD_DESC="hanoip_retail-user 11 RPIS31.Q2-42-25-1 19a8e release-keys"
+    PRIVATE_BUILD_DESC="hanoip_retail-user 11 RRIS31.Q1-42-51-12-4 24f96 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
