@@ -29,12 +29,7 @@ $(call inherit-product, vendor/motorola/hanoip/hanoip-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
-
-PRODUCT_PACKAGES += \
-    ApertureOverlayhanoip \
-    FrameworksReshanoip \
-    SettingsReshanoip \
-    SystemUIReshanoip
+    $(LOCAL_PATH)/overlay
 
 # Audio
 PRODUCT_PACKAGES += \
